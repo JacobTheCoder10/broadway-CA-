@@ -1,5 +1,5 @@
 body{
-  text-align: center horizontally;
+  text-align: center;
 }
 h1{
   font-family: Helvetica;
@@ -13,12 +13,13 @@ a{
   font-size: 18px;
 }
 .header{
-  background-image: url("the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
-.process h2{
+.Process{
   font-family: Helvetica;
   font-weight: bold;
   font-size: 32px;
+  color:black;
 }
 h3{
   font-family: Helvetica;
@@ -27,18 +28,19 @@ h3{
 }
 p{
   font-family: Helvetica;
-  font-size: 14;
+  font-size: 14px;
 }
-h2{
+.Design{
   font-family: Helvetica;
   font-weight: bold;
   font-size: 23px;
   color: white;
-  background-image: url("the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
 .footer{
   font-family: Helvetica;
   font-size: 11px;
   color: white;
-  background-color: dimgray; 
+  background-color: dimgray;
+  text-align: left;
 }
